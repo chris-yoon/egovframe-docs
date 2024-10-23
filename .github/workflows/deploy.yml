@@ -29,7 +29,7 @@ jobs:
     - name: Copy markdown files to content/ko/docs
       run: |
         mkdir -p content/ko/docs  # 필요한 디렉토리 생성
-        cp -r main-md/*.md content/ko/docs/  # 모든 markdown 파일을 복사
+        cp -r main-md/. content/ko/docs/  # main-md 폴더 이하의 모든 파일과 하위 디렉토리까지 포함하여 복사
 
     - name: Install Node.js
       uses: actions/setup-node@v3
