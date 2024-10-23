@@ -50,7 +50,7 @@ jobs:
 
     # 5. Hugo 빌드
     - name: Build the site
-      run: hugo --minify
+      run: hugo
 
     # 6. 빌드 결과물을 gh-pages 브랜치로 배포
     - name: Deploy to GitHub Pages
