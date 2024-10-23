@@ -36,9 +36,10 @@ jobs:
       with:
         node-version: '18'  # 안정적인 최신 버전의 Node.js 설치
 
+    # PostCSS와 autoprefixer 함께 설치
     - name: Install PostCSS and autoprefixer
       run: |
-        npm install -D autoprefixer  # PostCSS와 autoprefixer 함께 설치
+        npm install -D autoprefixer
         npm install -D postcss-cli
         npm install -D postcss
       
