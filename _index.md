@@ -1,6 +1,6 @@
 ---
 title: 전자정부 표준프레임워크 가이드
-linkTitle: 표준프레임워크 가이드
+linkTitle: " "
 menu: {main: {weight: 20}}
 weight: 20
 ---
