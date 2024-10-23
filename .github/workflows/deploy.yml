@@ -39,6 +39,7 @@ jobs:
     - name: Install PostCSS and autoprefixer
       run: |
         npm install -g postcss postcss-cli autoprefixer  # PostCSS와 autoprefixer 함께 설치
+        npm install -g npm@10.9.0  # npm 최신 버전으로 업데이트
       
     # 4. Hugo 설치
     - name: Install Hugo
