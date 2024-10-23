@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>전자정부 표준프레임워크 가이드 on 표준프레임워크 개발가이드</title>
+    <link>https://chris-yoon.github.io/egovframe-docs/docs/</link>
+    <description>Recent content in 전자정부 표준프레임워크 가이드 on 표준프레임워크 개발가이드</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <atom:link href="https://chris-yoon.github.io/egovframe-docs/docs/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
