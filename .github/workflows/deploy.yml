@@ -36,8 +36,9 @@ jobs:
       with:
         node-version: '18'  # 안정적인 최신 버전의 Node.js 설치
 
-    - name: Install PostCSS
-      run: npm install -g postcss postcss-cli  # PostCSS와 PostCSS CLI 설치
+    - name: Install PostCSS and autoprefixer
+      run: |
+        npm install -g postcss postcss-cli autoprefixer  # PostCSS와 autoprefixer 함께 설치
       
     # 4. Hugo 설치
     - name: Install Hugo
