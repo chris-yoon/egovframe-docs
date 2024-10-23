@@ -31,6 +31,14 @@ jobs:
         mkdir -p content/ko/docs  # 필요한 디렉토리 생성
         cp -r main-md/*.md content/ko/docs/  # 모든 markdown 파일을 복사
 
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'  # 안정적인 최신 버전의 Node.js 설치
+
+    - name: Install PostCSS
+      run: npm install -g postcss postcss-cli  # PostCSS와 PostCSS CLI 설치
+      
     # 4. Hugo 설치
     - name: Install Hugo
       uses: peaceiris/actions-hugo@v2
