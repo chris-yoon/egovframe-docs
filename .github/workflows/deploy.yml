@@ -36,6 +36,7 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
+        extended: true  # Hugo Extended 버전 설치
 
     # 5. Hugo 빌드
     - name: Build the site
